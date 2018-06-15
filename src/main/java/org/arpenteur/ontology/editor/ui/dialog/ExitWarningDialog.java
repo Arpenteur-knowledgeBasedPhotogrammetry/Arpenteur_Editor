@@ -3,7 +3,7 @@ package org.arpenteur.ontology.editor.ui.dialog;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
-import org.arpenteur.editor.model.ontology.SaveOntology;
+import org.arpenteur.ontology.editor.model.ontology.SaveOntology;
 
 public class ExitWarningDialog extends JPanel {
 	

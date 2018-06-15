@@ -6,8 +6,8 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
-import org.arpenteur.editor.model.EditDataProperty;
-import org.arpenteur.editor.ui.DataPropertyPanel;
+import org.arpenteur.ontology.editor.model.EditDataProperty;
+import org.arpenteur.ontology.editor.ui.DataPropertyPanel;
 import org.protege.editor.core.ui.util.ComponentFactory;
 import org.protege.editor.core.ui.util.InputVerificationStatusChangedListener;
 import org.protege.editor.core.ui.util.JOptionPaneEx;
@@ -15,7 +15,12 @@ import org.protege.editor.core.ui.util.VerifiedInputEditor;
 
 public class EditDataPropertyDialog extends JPanel implements VerifiedInputEditor {
 	
-private JTextField propertyNameField;
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -2592230178871097170L;
+
+	private JTextField propertyNameField;
 	
 	private JTextField propertyValueField;
 	

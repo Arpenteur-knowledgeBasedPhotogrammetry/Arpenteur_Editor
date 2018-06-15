@@ -9,14 +9,19 @@ import javax.swing.JTextField;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 
-import org.arpenteur.editor.model.AddIndividual;
-import org.arpenteur.variables.GlobalVariables;
+import org.arpenteur.ontology.editor.global.GlobalVariables;
+import org.arpenteur.ontology.editor.model.AddIndividual;
 import org.protege.editor.core.ui.util.ComponentFactory;
 import org.protege.editor.core.ui.util.JOptionPaneEx;
 
 public class AddIndividualDialog extends JPanel {
 	
-private JTextField individualNameField;
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 4470617238229825111L;
+
+	private JTextField individualNameField;
 	
 	private JLabel iriLabel;
 	

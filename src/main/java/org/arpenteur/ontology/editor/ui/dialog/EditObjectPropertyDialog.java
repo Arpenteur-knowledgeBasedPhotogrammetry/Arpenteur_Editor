@@ -8,15 +8,19 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
-import org.arpenteur.editor.model.EditObjectProperty;
-import org.arpenteur.editor.ui.ObjectPropertyPanel;
-import org.arpenteur.editor.ui.dialog.OjectPropertyIndividualsDialog;
+import org.arpenteur.ontology.editor.model.EditObjectProperty;
+import org.arpenteur.ontology.editor.ui.ObjectPropertyPanel;
 import org.protege.editor.core.ui.util.ComponentFactory;
 import org.protege.editor.core.ui.util.JOptionPaneEx;
 
 public class EditObjectPropertyDialog extends JPanel {
 	
-private JTextField objectPropertyName;
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 4918068949354086622L;
+
+	private JTextField objectPropertyName;
 	
 	private JButton chooseValue = new JButton("Choose Value");
 	

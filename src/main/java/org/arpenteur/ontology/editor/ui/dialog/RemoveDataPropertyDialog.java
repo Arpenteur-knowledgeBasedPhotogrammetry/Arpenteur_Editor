@@ -3,9 +3,15 @@ package org.arpenteur.ontology.editor.ui.dialog;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
-import org.arpenteur.editor.model.RemoveDataProperty;
+import org.arpenteur.ontology.editor.model.RemoveDataProperty;
+
 
 public class RemoveDataPropertyDialog extends JPanel {
+	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 915510086030540268L;
 	
 	private Object[] options = { "Yes", "No" };
 	

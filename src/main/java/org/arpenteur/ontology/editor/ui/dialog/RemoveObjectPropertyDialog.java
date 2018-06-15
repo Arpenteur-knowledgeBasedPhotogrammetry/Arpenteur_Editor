@@ -3,10 +3,16 @@ package org.arpenteur.ontology.editor.ui.dialog;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
-import org.arpenteur.editor.model.RemoveObjectProperty;
-import org.arpenteur.editor.ui.ObjectPropertyPanel;
+import org.arpenteur.ontology.editor.model.RemoveObjectProperty;
+import org.arpenteur.ontology.editor.ui.ObjectPropertyPanel;
+
 
 public class RemoveObjectPropertyDialog extends JPanel {
+	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 771390382887927045L;
 	
 	private Object[] options = { "Yes", "No" };
 	
