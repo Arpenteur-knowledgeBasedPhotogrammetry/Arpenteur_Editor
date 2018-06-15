@@ -5,8 +5,7 @@ import java.util.Random;
 import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
 
-import org.arpenteur.editor.model.graph.GraphLauncher;
-import org.arpenteur.editor.ui.IndividualsPanel;
+import org.arpenteur.ontology.editor.ui.IndividualsPanel;
 
 public class GetDataAndObjectPropertyForGraph {
 	
@@ -16,6 +15,7 @@ public static long ID = 0;
 	
 	private Random rand = new Random();
 	
+	@SuppressWarnings("unused")
 	private int  randomNumber = rand.nextInt(999) + 1;
 	
 	

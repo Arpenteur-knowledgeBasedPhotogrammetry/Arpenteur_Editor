@@ -2,7 +2,6 @@ package org.arpenteur.ontology.editor.model.graph;
 
 import java.util.Vector;
 
-import org.arpenteur.editor.model.graph.GetDataAndObjectPropertyForGraph;
 import org.graphstream.graph.Edge;
 import org.graphstream.graph.Graph;
 import org.graphstream.graph.Node;

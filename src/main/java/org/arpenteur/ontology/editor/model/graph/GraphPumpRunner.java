@@ -1,6 +1,6 @@
 package org.arpenteur.ontology.editor.model.graph;
 
-import org.arpenteur.editor.ui.GraphPanel;
+import org.arpenteur.ontology.editor.ui.GraphPanel;
 
 public class GraphPumpRunner implements Runnable {
 
