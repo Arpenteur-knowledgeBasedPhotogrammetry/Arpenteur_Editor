@@ -2,16 +2,15 @@ package org.arpenteur.ontology.editor.global;
 
 import javax.swing.table.TableRowSorter;
 
-import org.arpenteur.common.GetDataProperty;
-import org.arpenteur.common.GetObjectProperty;
-import org.arpenteur.common.GetOntologyIndividuals;
-import org.arpenteur.editor.model.GetOntologyClasseForTable;
-import org.arpenteur.editor.model.Search;
-import org.arpenteur.editor.ui.ClassesPanel;
-import org.arpenteur.editor.ui.DataPropertyPanel;
-import org.arpenteur.editor.ui.IndividualsPanel;
-import org.arpenteur.editor.ui.ObjectPropertyPanel;
-import org.arpenteur.variables.GlobalVariables;
+import org.arpenteur.ontology.editor.common.GetDataProperty;
+import org.arpenteur.ontology.editor.common.GetObjectProperty;
+import org.arpenteur.ontology.editor.common.GetOntologyIndividuals;
+import org.arpenteur.ontology.editor.model.GetOntologyClasseForTable;
+import org.arpenteur.ontology.editor.model.Search;
+import org.arpenteur.ontology.editor.ui.ClassesPanel;
+import org.arpenteur.ontology.editor.ui.DataPropertyPanel;
+import org.arpenteur.ontology.editor.ui.IndividualsPanel;
+import org.arpenteur.ontology.editor.ui.ObjectPropertyPanel;
 import org.protege.editor.owl.model.OWLModelManager;
 import org.semanticweb.owlapi.apibinding.OWLManager;
 import org.semanticweb.owlapi.model.OWLDataFactory;
