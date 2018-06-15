@@ -11,8 +11,8 @@ import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableModel;
 import javax.swing.table.TableRowSorter;
 
-import org.arpenteur.editor.model.Search;
 import org.arpenteur.ontology.editor.common.GetOntologyIndividuals;
+import org.arpenteur.ontology.editor.model.Search;
 
 public class ClassesPanel extends JPanel {
 

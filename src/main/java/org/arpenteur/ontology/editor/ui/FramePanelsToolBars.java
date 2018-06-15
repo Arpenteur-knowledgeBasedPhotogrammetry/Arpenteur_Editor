@@ -8,23 +8,20 @@ import javax.swing.JSlider;
 import javax.swing.JTextField;
 import javax.swing.JToolBar;
 
-import org.arpenteur.editor.model.RemoveOWLClass;
-import org.arpenteur.editor.model.Search;
-import org.arpenteur.editor.model.graph.GraphAlgo;
-import org.arpenteur.editor.model.graph.GraphLauncher;
-import org.arpenteur.editor.model.graph.GraphPumpRunner;
-import org.arpenteur.editor.ui.GraphPanel;
-import org.arpenteur.editor.ui.IndividualsPanel;
-import org.arpenteur.editor.ui.MainFrame;
-import org.arpenteur.editor.ui.dialog.AddClassDialog;
-import org.arpenteur.editor.ui.dialog.AddDataPropertyDialog;
-import org.arpenteur.editor.ui.dialog.AddIndividualDialog;
-import org.arpenteur.editor.ui.dialog.AddObjectPropertyDialog;
-import org.arpenteur.editor.ui.dialog.EditDataPropertyDialog;
-import org.arpenteur.editor.ui.dialog.EditObjectPropertyDialog;
-import org.arpenteur.editor.ui.dialog.RemoveDataPropertyDialog;
-import org.arpenteur.editor.ui.dialog.RemoveObjectPropertyDialog;
-import org.arpenteur.variables.GlobalVariables;
+import org.arpenteur.ontology.editor.global.GlobalVariables;
+import org.arpenteur.ontology.editor.model.RemoveOWLClass;
+import org.arpenteur.ontology.editor.model.Search;
+import org.arpenteur.ontology.editor.model.graph.GraphAlgo;
+import org.arpenteur.ontology.editor.model.graph.GraphLauncher;
+import org.arpenteur.ontology.editor.model.graph.GraphPumpRunner;
+import org.arpenteur.ontology.editor.ui.dialog.AddClassDialog;
+import org.arpenteur.ontology.editor.ui.dialog.AddDataPropertyDialog;
+import org.arpenteur.ontology.editor.ui.dialog.AddIndividualDialog;
+import org.arpenteur.ontology.editor.ui.dialog.AddObjectPropertyDialog;
+import org.arpenteur.ontology.editor.ui.dialog.EditDataPropertyDialog;
+import org.arpenteur.ontology.editor.ui.dialog.EditObjectPropertyDialog;
+import org.arpenteur.ontology.editor.ui.dialog.RemoveDataPropertyDialog;
+import org.arpenteur.ontology.editor.ui.dialog.RemoveObjectPropertyDialog;
 
 public class FramePanelsToolBars extends JToolBar {
 	/**

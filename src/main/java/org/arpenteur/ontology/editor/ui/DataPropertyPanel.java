@@ -8,8 +8,6 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 
-import org.arpenteur.editor.ui.FramePanelsToolBars;
-
 public class DataPropertyPanel extends JPanel {
 
 	/**
