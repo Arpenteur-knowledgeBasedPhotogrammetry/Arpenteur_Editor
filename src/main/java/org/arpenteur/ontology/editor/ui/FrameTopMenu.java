@@ -7,11 +7,11 @@ import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 
-import org.arpenteur.editor.model.InconsistencyTest;
-import org.arpenteur.editor.model.ontology.LoadOntologyFromFile;
-import org.arpenteur.editor.model.ontology.LoadOntologyFromURL;
-import org.arpenteur.editor.model.ontology.SaveOntology;
-import org.arpenteur.editor.model.ontology.SaveOntologyAs;
+import org.arpenteur.ontology.editor.model.InconsistencyTest;
+import org.arpenteur.ontology.editor.model.ontology.LoadOntologyFromFile;
+import org.arpenteur.ontology.editor.model.ontology.LoadOntologyFromURL;
+import org.arpenteur.ontology.editor.model.ontology.SaveOntology;
+import org.arpenteur.ontology.editor.model.ontology.SaveOntologyAs;
 import org.protege.editor.core.ui.OpenFromURLPanel;
 
 public class FrameTopMenu extends JMenuBar {

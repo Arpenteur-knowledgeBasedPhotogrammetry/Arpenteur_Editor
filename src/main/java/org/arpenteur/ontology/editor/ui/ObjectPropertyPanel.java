@@ -8,8 +8,7 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 
-import org.arpenteur.editor.model.GetOWLClassName;
-import org.arpenteur.editor.ui.FramePanelsToolBars;
+import org.arpenteur.ontology.editor.model.GetOWLClassName;
 
 public class ObjectPropertyPanel extends JPanel {
 

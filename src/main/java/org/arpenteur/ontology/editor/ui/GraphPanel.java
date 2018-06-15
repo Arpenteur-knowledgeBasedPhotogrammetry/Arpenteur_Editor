@@ -5,9 +5,7 @@ import java.awt.BorderLayout;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 
-import org.arpenteur.editor.model.graph.GraphLauncher;
-import org.arpenteur.editor.ui.FramePanelsToolBars;
-import org.arpenteur.editor.ui.GraphMenu;
+import org.arpenteur.ontology.editor.model.graph.GraphLauncher;
 import org.graphstream.ui.graphicGraph.GraphicNode;
 import org.graphstream.ui.swingViewer.ViewPanel;
 import org.graphstream.ui.view.Viewer;

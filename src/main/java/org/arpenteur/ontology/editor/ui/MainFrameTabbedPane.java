@@ -3,10 +3,6 @@ package org.arpenteur.ontology.editor.ui;
 import javax.swing.JSplitPane;
 import javax.swing.JTabbedPane;
 
-import org.arpenteur.editor.ui.DataPropertyPanel;
-import org.arpenteur.editor.ui.GraphPanel;
-import org.arpenteur.editor.ui.ObjectPropertyPanel;
-
 public class MainFrameTabbedPane extends JTabbedPane {
 	
 	//For tabed pane test

@@ -8,12 +8,10 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 
-import org.arpenteur.common.GetDataProperty;
-import org.arpenteur.common.GetObjectProperty;
-import org.arpenteur.editor.model.graph.GetDataAndObjectPropertyForGraph;
-import org.arpenteur.editor.ui.DataPropertyPanel;
-import org.arpenteur.editor.ui.FramePanelsToolBars;
-import org.arpenteur.editor.ui.ObjectPropertyPanel;
+import org.arpenteur.ontology.editor.common.GetDataProperty;
+import org.arpenteur.ontology.editor.common.GetObjectProperty;
+import org.arpenteur.ontology.editor.model.graph.GetDataAndObjectPropertyForGraph;
+
 
 public class IndividualsPanel extends JPanel {
 	
