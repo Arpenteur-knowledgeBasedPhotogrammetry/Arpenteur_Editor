@@ -5,7 +5,7 @@ import java.util.Vector;
 
 import javax.swing.table.DefaultTableModel;
 
-import org.arpenteur.variables.GlobalVariables;
+import org.arpenteur.ontology.editor.global.GlobalVariables;
 import org.semanticweb.owlapi.model.IRI;
 import org.semanticweb.owlapi.model.OWLClass;
 import org.semanticweb.owlapi.model.OWLIndividual;
@@ -16,6 +16,11 @@ import org.semanticweb.owlapi.search.EntitySearcher;
 
 public class GetObjectProperty extends DefaultTableModel {
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 2693192259668744448L;
+
 	/**
 	 *  Constructs a GetObjectProperty who can get object property as a DefaultTableModel
 	 *  I use Vector to store data because the size of Vector can grow or shrink as needed.
