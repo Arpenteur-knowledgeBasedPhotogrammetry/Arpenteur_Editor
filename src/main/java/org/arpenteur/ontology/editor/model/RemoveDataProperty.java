@@ -2,9 +2,9 @@ package org.arpenteur.ontology.editor.model;
 
 import java.util.Set;
 
-import org.arpenteur.editor.ui.DataPropertyPanel;
-import org.arpenteur.editor.ui.IndividualsPanel;
-import org.arpenteur.variables.GlobalVariables;
+import org.arpenteur.ontology.editor.global.GlobalVariables;
+import org.arpenteur.ontology.editor.ui.DataPropertyPanel;
+import org.arpenteur.ontology.editor.ui.IndividualsPanel;
 import org.semanticweb.owlapi.model.IRI;
 import org.semanticweb.owlapi.model.OWLClass;
 import org.semanticweb.owlapi.model.OWLDataPropertyAssertionAxiom;

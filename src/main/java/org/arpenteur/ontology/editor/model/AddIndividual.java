@@ -1,7 +1,7 @@
 package org.arpenteur.ontology.editor.model;
 
-import org.arpenteur.editor.ui.ClassesPanel;
-import org.arpenteur.variables.GlobalVariables;
+import org.arpenteur.ontology.editor.global.GlobalVariables;
+import org.arpenteur.ontology.editor.ui.ClassesPanel;
 import org.semanticweb.owlapi.model.IRI;
 import org.semanticweb.owlapi.model.OWLClass;
 import org.semanticweb.owlapi.model.OWLClassAssertionAxiom;

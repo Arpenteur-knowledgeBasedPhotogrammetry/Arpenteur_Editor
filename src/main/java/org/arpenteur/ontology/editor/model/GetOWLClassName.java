@@ -2,7 +2,7 @@ package org.arpenteur.ontology.editor.model;
 
 import javax.swing.table.DefaultTableModel;
 
-import org.arpenteur.variables.GlobalVariables;
+import org.arpenteur.ontology.editor.global.GlobalVariables;
 import org.semanticweb.owlapi.model.OWLClass;
 import org.semanticweb.owlapi.model.OWLNamedIndividual;
 import org.semanticweb.owlapi.reasoner.NodeSet;

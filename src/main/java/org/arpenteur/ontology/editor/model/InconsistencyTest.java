@@ -5,7 +5,7 @@ import java.util.Set;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
-import org.arpenteur.variables.GlobalVariables;
+import org.arpenteur.ontology.editor.global.GlobalVariables;
 import org.protege.editor.core.ui.error.ErrorLogPanel;
 import org.semanticweb.owlapi.model.OWLClass;
 import org.semanticweb.owlapi.reasoner.ReasonerInterruptedException;

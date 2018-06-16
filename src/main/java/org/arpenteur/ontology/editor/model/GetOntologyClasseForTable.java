@@ -5,7 +5,7 @@ import java.util.Vector;
 
 import javax.swing.table.DefaultTableModel;
 
-import org.arpenteur.variables.GlobalVariables;
+import org.arpenteur.ontology.editor.global.GlobalVariables;
 import org.semanticweb.owlapi.model.OWLClass;
 
 public class GetOntologyClasseForTable extends DefaultTableModel {

@@ -1,7 +1,5 @@
 package org.arpenteur.ontology.editor.model;
 
-import org.arpenteur.editor.model.AddObjectProperty;
-import org.arpenteur.editor.model.RemoveObjectProperty;
 
 public class EditObjectProperty {
 	
