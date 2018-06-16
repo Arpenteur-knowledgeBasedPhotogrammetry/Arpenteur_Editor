@@ -2,7 +2,7 @@ package org.arpenteur.ontology.editor.model.ontology;
 
 import javax.swing.JOptionPane;
 
-import org.arpenteur.variables.GlobalVariables;
+import org.arpenteur.ontology.editor.global.GlobalVariables;
 import org.protege.editor.core.ui.error.ErrorLogPanel;
 import org.semanticweb.owlapi.model.OWLOntologyStorageException;
 

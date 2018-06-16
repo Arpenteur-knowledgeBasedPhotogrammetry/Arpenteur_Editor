@@ -5,11 +5,11 @@ import java.net.URI;
 import javax.swing.JOptionPane;
 import javax.swing.table.TableRowSorter;
 
-import org.arpenteur.editor.model.GetOntologyClasseForTable;
-import org.arpenteur.editor.model.Search;
-import org.arpenteur.editor.ui.ClassesPanel;
-import org.arpenteur.editor.ui.dialog.ClassesIndividualsDialog;
-import org.arpenteur.variables.GlobalVariables;
+import org.arpenteur.ontology.editor.global.GlobalVariables;
+import org.arpenteur.ontology.editor.model.GetOntologyClasseForTable;
+import org.arpenteur.ontology.editor.model.Search;
+import org.arpenteur.ontology.editor.ui.ClassesPanel;
+import org.arpenteur.ontology.editor.ui.dialog.ClassesIndividualsDialog;
 import org.semanticweb.owlapi.model.IRI;
 
 public class LoadOntologyFromURL {
