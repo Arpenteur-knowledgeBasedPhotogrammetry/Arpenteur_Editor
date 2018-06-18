@@ -39,7 +39,7 @@ public class GraphLauncher extends JPanel {
 
 		graph = new AdjacencyListGraph("Entity graph");
  		 
-		graph.addAttribute("ui.stylesheet", "url('src/main/resources/GraphStyle.css')");
+		graph.addAttribute("ui.stylesheet", "url('resources/GraphStyle.css')");
 		graph.addAttribute("ui.quality");
 		graph.addAttribute("ui.antialias");
    

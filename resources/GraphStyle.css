@@ -1,0 +1,40 @@
+graph {
+    fill-color: gray; 
+}
+
+node {
+    shape: box;
+    size-mode: fit;
+    fill-color: white;
+    stroke-width: 2px;
+    stroke-mode: plain;
+    stroke-color: green; 
+}
+
+node:clicked { 
+    fill-color: #F00A, #F000;
+} 
+
+node:selected {
+    fill-color: #00FA, #00F0;
+}
+
+node.instance {
+    fill-color: rgb(200,200,255);
+}
+
+edge {
+    shape: line;
+    size: 2px;
+    fill-mode:plain;
+    fill-color: rgb(121, 142, 234);
+    arrow-shape:arrow;
+}
+
+sprite {
+    shape: box;
+    size: 32px, 52px;
+    fill-mode: none;
+    fill-color: #FFF8, #FFF0;
+    text-size:12;
+}
