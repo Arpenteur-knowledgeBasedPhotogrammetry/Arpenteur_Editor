@@ -55,10 +55,10 @@ public class FramePanelsToolBars extends JToolBar {
     
     //Ontology Graph Tab
     private JButton charge_Graph = new JButton("Charge Graph");
-    private ImageIcon plusIcon_Graph = new ImageIcon("src/main/resources/plusR.png");
+    private ImageIcon plusIcon_Graph = new ImageIcon("resources/plusR.png");
     private JButton zoomOut_Graph = new JButton(plusIcon_Graph);
     private JSlider zoomInOut_Graph = new JSlider();
-    private ImageIcon minusIcon_Graph = new ImageIcon("src/main/resources/minusR.png");
+    private ImageIcon minusIcon_Graph = new ImageIcon("resources/minusR.png");
     private JButton zoomIn_Graph = new JButton(minusIcon_Graph);
     private JButton resetSize_Graph = new JButton("Default Size");
     public static JCheckBox selectedClass_Graph = new JCheckBox("Selected Class");
